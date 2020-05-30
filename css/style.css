@@ -1,0 +1,541 @@
+
+@-ms-viewport{
+  width: device-width;
+}
+
+
+.main-box{
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+   
+}
+
+
+#home{
+    padding-bottom: 30px;
+}
+
+/*-----Navbar item---------*/
+.navbar{
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+
+.link {
+    font-family:'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+/*    padding-right: 20px;*/
+    color: black;
+    opacity: 0.7;
+}
+
+
+.nav-item{
+/*  padding: 10%;*/
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+
+
+.nav-item{
+/*    padding-right: 15px;*/
+/*    border: solid;*/
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.login-button{
+/*    border: 0.1px solid;*/
+    border-radius: 7px;
+    background-color: hsl(0, 94%, 66%);
+    
+}
+
+.login{
+    color: white; 
+    font-family:'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+
+.home-box{
+    height: 70vh;
+}
+
+.home-left{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-right{
+    display: flex;
+/*    align-content: center;*/
+/*    justify-content: center;*/
+    align-items: center;
+    position: relative;
+  
+}
+
+.desktop-home-img{
+   z-index: 10;
+ 
+    position: absolute;
+}
+
+.home-back{
+    position: absolute;
+    left: 200px;
+    right: 100px;
+    top: 350px;
+    
+}
+
+
+.button-chrome{
+     font-family:'Rubik', sans-serif;
+    font-weight: 400;
+    border-radius: 8px;
+    color: white;
+    background-color: hsl(231, 69%, 60%);
+    font-size: 13px;
+    height: 40px;
+    width: 150px;
+}
+
+.button-firefox{
+     font-family:'Rubik', sans-serif;
+    font-weight: 400;
+    border-radius: 8px;
+     font-size: 13px;
+    height: 40px;
+    width: 150px;
+}
+
+
+.home-title{
+     font-family:'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.home-content{
+     font-family:'Rubik', sans-serif;
+    font-weight: 400;
+     opacity: 0.7;
+    max-width: 400px;
+}
+
+.mobile-home-img{
+/*    visibility: hidden;*/
+    display: none;
+    padding-top: 30px;
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 300px)
+{
+ 
+    body{
+    
+/* 
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+*/
+/*        padding: 0;*/
+    position: absolute;
+}
+    
+    .home-box{
+    height: 100vh;
+/*        width: 300px;*/
+}
+    
+    .desktop-home-img{
+        visibility: hidden;
+    }
+
+    .mobile-home-img{
+    display: block;
+    }
+    
+    .home-left{
+/*    align-content: center;*/
+        align-items: center;
+    }
+    
+    .home-title{
+        text-align: center;
+    }
+    
+    .button-chrome{
+        padding-right: 10px;
+/*        width: 100px;*/
+    }
+    .button-firefox{
+        padding-left: 10px;
+/*        width: 100px;*/
+    }
+    .button-box{
+        width: auto;
+    }
+   
+    .nav-tabs{
+    justify-content: center;
+    display: flex;
+        flex-direction: column;
+        align-content: center;
+/*        width: 300px;*/
+    
+}
+}
+
+
+/*----- Start Section Features ---------*/
+#features{
+    height: auto;
+    padding: 40px;
+    
+}
+.features-title-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.features-box{
+    height: 60vh;
+}
+
+.features-content{
+    max-width: 450px;
+    justify-content: center;
+    display: flex;
+   text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    opacity: 0.7;
+
+}
+
+
+.nav-tabs{
+    justify-content: center;
+    display: flex;
+    
+}
+
+#tab:hover{
+    
+}
+
+.nav-tabs.active{
+   
+    border-bottom: 1px solid hsl(0, 94%, 66%);
+    
+}
+
+#tab{
+    padding: 20px;
+/*
+    border-bottom: 0.5px solid;
+    border-bottom-color: darkgrey;
+*/
+       
+}
+
+
+
+.features-left{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-right{
+   justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+  
+}
+
+.desktop-tab-img{
+   z-index: 10;
+ 
+    position: absolute;
+}
+
+
+
+
+
+.features-tab-title{
+     font-family:'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.features-tab-content{
+     font-family:'Rubik', sans-serif;
+    font-weight: 400;
+     opacity: 0.7;
+    max-width: 400px;
+}
+
+.mobile-tab-img{
+/*    visibility: hidden;*/
+    display: none;
+    padding-top: 30px;
+}
+
+.button-more-info{
+    border-radius: 8px;
+    color: white;
+    background-color: hsl(231, 69%, 60%);
+    font-size: 13px;
+    height: 40px;
+    width: 90px;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 300px){
+    .desktop-tab-img{
+        visibility: hidden;
+    }
+
+    .mobile-tab-img{
+    display: block;
+    }
+    
+    .features-left{
+/*    align-content: center;*/
+        align-items: center;
+    }
+    
+    .features-tab-title{
+        text-align: center;
+    }
+  
+    #features{
+        height: 140vh;
+        padding: 20px;
+    }
+
+    #footer-navbar{
+    display: flex;
+ justify-content: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        
+}
+    
+    .questions-box{
+    width: 300px;
+}
+    
+}
+
+
+
+.download-title-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.download-box{
+    height: auto;
+    padding: 50px;
+}
+
+.download-content{
+    max-width: 440px;
+    justify-content: center;
+    display: flex;
+   text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    opacity: 0.7;
+
+}
+
+
+
+.cards-box{
+/*    width: 1000px;*/
+    display: flex;
+    justify-content: space-between;
+/*    align-content: center;*/
+/*    align-items: center;*/
+    height: 60vh;
+    max-width:900px;
+}
+
+.card-img-top{
+    width: 5rem;
+    margin-top: 15px;
+}
+.card{
+/*    padding: 5%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-content: center;*/
+    align-items: center;
+    text-align: center;
+-webkit-box-shadow: -3px 6px 38px -7px rgba(0,0,0,0.67);
+-moz-box-shadow: -3px 6px 38px -7px rgba(0,0,0,0.67);
+box-shadow: -3px 6px 38px -7px rgba(0,0,0,0.67);
+}
+
+
+.card-title{
+    font-size: 15px;
+}
+
+.card-text{
+   font-size: 12px; 
+    opacity: 0.7;
+    border-bottom: 5px dotted #DCDCDC;
+    padding-bottom: 20px;
+}
+
+.btn-card{
+    font-size: 12px; 
+    background-color: hsl(231, 69%, 60%);
+}
+
+#questions{
+    padding: 50px;
+    height:auto;
+}
+
+.questions-box{
+    width: 400px;
+}
+
+.q-box{
+/*    justify-content: center;*/
+    display: flex;
+    flex-direction: column;
+/*    align-content: center;*/
+/*    text-align: center;*/
+    align-items: center;
+    
+    
+}
+
+.q-button{
+    height: 60px;
+    width: 400px;
+    border-bottom: 1px solid;
+    border-bottom-color: darkgray;
+    text-align: start;
+    
+}
+
+.q-img{
+/*    position: absolute;*/
+/*    display: flex;*/
+    align-self: flex-end;
+    
+}
+
+.question-title{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.question-content{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.button-more-info{
+    
+}
+
+
+
+#footer{
+    background-color: hsl(231, 69%, 60%);
+    padding: 40px;
+  height:auto;
+   
+}
+
+.footer-box{
+    width: 400px;
+}
+
+.footer-title{
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+
+.footer-content{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.footer-icon{
+    background-color: hsl(0, 94%, 66%);
+    font-size: 12px;
+    color: white;
+}
+
+.footer-input{
+    justify-content: space-around;
+    display: flex;
+    align-content: center;
+    
+}
+input{
+    border-radius: 7px;
+    width: 70%;
+}
+
+#footer-Nav{
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    
+  
+}
+
+.footer-link{
+    color: white;
+    font-size: 12px;
+}
+
+#footer-navbar{
+    background-color: #051422;
+}
